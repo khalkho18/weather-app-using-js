@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App | by Albert</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script defer src="./assets/js/app.js"></script>
+  </head>
+  <body>
+    <div class="app-main" id="app-main">
+      <div class="searchInputBox" id="searchInputBox">
+        <input
+          type="text"
+          id="input-box"
+          class="input-box"
+          placeholder="Enter city name, Zip code"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="weather-body" id="weather-body">
+        <div class="location-details" id="location-details">
+          <div class="city" id="city"></div>
+          <div class="date" id="date"></div>
+        </div>
+
+        <div class="weather-status" id="weather-status">
+          <div class="temp" id="temp"></div>
+          <div class="min-max" id="min-max"></div>
+          <div class="weather" id="weather"></div>
+          <div class="img" id="img"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
